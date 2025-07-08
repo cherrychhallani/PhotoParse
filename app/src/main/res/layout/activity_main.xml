@@ -19,7 +19,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/camptureImgBtn"
+        android:id="@+id/captureImgBtn"
         android:text="Capture Image"
         android:backgroundTint="@color/green"
         android:layout_marginTop="12dp"/>
