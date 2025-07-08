@@ -17,36 +17,40 @@
         android:src="@drawable/baseline_image_24"
         android:layout_marginTop="12dp"/>
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/captureImgBtn"
         android:text="Capture Image"
         android:backgroundTint="@color/green"
+        android:layout_gravity="center"
         android:layout_marginTop="12dp"/>
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="OCR TEXT:"
+        android:text="Text from your image:"
         android:textSize="26sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/green"
         android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="280dp"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
         android:id="@+id/resultText"
         android:text=""
         android:padding="8dp"
         android:background="@drawable/border"
         android:textSize="20sp"
-        android:textColor="@color/black"
+        android:textColor="@color/green"
         android:textAlignment="textStart"
+        android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,11 +59,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/copyTextBtn"
         android:visibility="invisible"
         android:text="Copy Text"
         android:backgroundTint="@color/green"
+        android:layout_gravity="center"
         android:layout_marginTop="16dp"/>
 </LinearLayout>
